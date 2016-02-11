@@ -127,10 +127,22 @@ span{
 	padding-top: 20px;
 }
 
-.results li{
-	border-bottom: 1px solid lightgray;
+.results ul li{
+	
 	width: 30%;
 	list-style: none;
+	padding-top: 10px;
+}
+
+.results ol{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+}
+
+.results ol li{
+	padding-right: 10px;
 }
 
 form{
