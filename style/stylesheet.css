@@ -69,12 +69,18 @@ body{
 
 
 
-.main{
-	margin-top: 180px;
+.navbar{
+	position: relative;
+	top: 140px;
+	padding: 0;
+	margin: 0;
+	
+
+	
 }
 
 
-.main ul{
+.navbar ul{
 	position: relative;
 	list-style: none;
 	padding-right: 15px;
@@ -88,19 +94,19 @@ body{
 	
 }
 
-.main li{
+.navbar li{
 	padding-right: 15px;
 	display: inline;
 	
 	
 }
 
-.main li a{
+.navbar li a{
 	color: #000;
 	opacity: .75;
 }
 
-.main ol{
+.navbar ol{
 	position: relative;
 	padding-right: 15px;
 	display: flex;
@@ -108,7 +114,24 @@ body{
 	top: -130px;
 }
 
+span{
+	color: #009933;
+}
 
+.results{
+	text-align: -webkit-left;
+	text-align: -moz-left;
+	display: box;
+	position: relative;
+	margin-left: 80px;
+	padding-top: 20px;
+}
+
+.results li{
+	border-bottom: 1px solid lightgray;
+	width: 30%;
+	list-style: none;
+}
 
 form{
 	text-align: -webkit-left;
