@@ -95,9 +95,9 @@ body{
 }
 
 .navbar li{
-	padding-right: 15px;
+	padding-right: 30px;
 	display: inline;
-	
+	line-height: 5px;
 	
 }
 
@@ -123,8 +123,17 @@ span{
 	text-align: -moz-left;
 	display: box;
 	position: relative;
-	margin-left: 80px;
+	margin-left: 0px;
+	margin-top: 90px;
+	margin-bottom: 100px;
 	padding-top: 20px;
+	border-top: 1px solid lightgrey;
+	width: 100%;
+}
+
+.results li{
+	margin-left: 80px;
+	margin-top: 0;
 }
 
 .results ul li{
@@ -143,6 +152,22 @@ span{
 
 .results ol li{
 	padding-right: 10px;
+	
+}
+
+#bilder ol li{
+	padding: 0;
+	display: flex;
+}
+
+
+#related{
+	border-top: 1px solid lightgray;
+	width: 30%;
+	margin-left: 75px;
+}
+#related ol{
+	display: flexbox;
 }
 
 form{
@@ -178,6 +203,11 @@ form{
 	left: 5px;
 	margin: 5px 0px 5px 0px;
 	
+}
+
+
+h2{
+	font-weight: lighter;
 }
 
 .mic{
